@@ -24,6 +24,10 @@ Remote-SSh: Open SSH Configuration File...
 Host name-of-remote-host
  HostName xxx.xxx.xxx.xxx
  User user-name-on-remote-host
- IdentityAgent ~/.ssh/name-of-private-key
+ IdentityFile ~/.ssh/name-of-private-key
 ```
 
+Ref:
+<https://www.cyberciti.biz/faq/how-to-set-up-ssh-keys-on-linux-unix/>
+
+<https://code.visualstudio.com/docs/remote/troubleshooting>
